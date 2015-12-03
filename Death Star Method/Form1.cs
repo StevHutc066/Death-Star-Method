@@ -35,7 +35,7 @@ namespace Death_Star_Method
             // creates a scale to scale the death star properly when using inputted pixel size
             float scale = pixels / 400;
 
-            // creates a red pen for drawing the death star
+            // creates a red pen for drawing the death star on screen
             Pen deathPen = new Pen(Color.Red);
 
             // draws a circle for the Death Star
