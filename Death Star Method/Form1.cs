@@ -35,13 +35,13 @@ namespace Death_Star_Method
             // creates a scale to scale the death star properly when using inputted pixel size
             float scale = pixels / 400;
 
-            //creates a white pen for drawing the death star
-            Pen deathPen = new Pen(Color.White);
+            // creates a red pen for drawing the death star
+            Pen deathPen = new Pen(Color.Red);
 
-            //draws the circle for the Death Star
+            // draws a circle for the Death Star
             g.DrawArc(deathPen, x, y, (400 * scale), (400 * scale), 273, 354);
 
-            //draws the hole opening in the Death Star
+            // draws the hole opening in the Death Star
             g.DrawLine(deathPen, ((x + ( 190 * scale))), y, ((x +(190 * scale))), (y + (20 * scale)));
             g.DrawLine(deathPen, (x + ( 190 * scale)), ((y + (20 * scale))), ((x + (210 * scale))), ((y + (20 * scale))));
             g.DrawLine(deathPen, ((x + (210 * scale))), y, ((x + (210 * scale))), (y + (20 * scale)));
