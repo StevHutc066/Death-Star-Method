@@ -41,7 +41,7 @@ namespace Death_Star_Method
             //draws the circle for the Death Star
             g.DrawArc(deathPen, x, y, (400 * scale), (400 * scale), 273, 354);
 
-            //draws the hole in the Death Star
+            //draws the hole opening in the Death Star
             g.DrawLine(deathPen, ((x + ( 190 * scale))), y, ((x +(190 * scale))), (y + (20 * scale)));
             g.DrawLine(deathPen, (x + ( 190 * scale)), ((y + (20 * scale))), ((x + (210 * scale))), ((y + (20 * scale))));
             g.DrawLine(deathPen, ((x + (210 * scale))), y, ((x + (210 * scale))), (y + (20 * scale)));
